@@ -14,7 +14,7 @@ function setup(){
   
   createCanvas(400,400);
  //crie um sprite para a pista 
- path=createSprite(50,400)
+ path=createSprite(200,200)
 //adicione uma imagem para a pista
 path.addImage(pathImg)
 //Faça com que a pista seja um fundo que se move dando a ela velocity Y.
@@ -22,7 +22,7 @@ path.velocityY=5
 path.scale=1.2;
 
 //crie um sprite de menino
-boy=createSprite(200,100,30,30)
+boy=createSprite(200,340,30,30)
 //adicione uma animação de corrida para ele
 boy.addAnimation("running", boyImg)
 boy.scale=0.5;
